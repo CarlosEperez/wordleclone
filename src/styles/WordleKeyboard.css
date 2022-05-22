@@ -1,0 +1,19 @@
+.keyboardButton {
+    border: 3px solid black;
+    width: 40px;
+    height: 40px;
+}
+
+.keyboardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+
+}
+
+.wordleContainer {
+    border: 1px solid blue;
+    margin: auto;
+    width: 50%;
+}
+
