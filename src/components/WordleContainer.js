@@ -1,7 +1,7 @@
 import WordleKeyboard from "./WordleKeyboard"
 import WordleBoard from "./WordleBoard"
 import React from "react";
-
+import "../styles/WordleBoard.css"
 
 class WordleContainer extends React.Component {
     constructor(props) {
@@ -18,6 +18,7 @@ class WordleContainer extends React.Component {
     render(){
         return(
             <div className="wordleContainer">
+                <h1 className="heading">Wordle</h1>
                 <WordleBoard  pressedKey={this.state.text} />
                 <WordleKeyboard onKeyPressed={this.handleKeyPress} />
 
